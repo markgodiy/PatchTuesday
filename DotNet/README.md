@@ -1,7 +1,7 @@
 # DotNet | dotnet | .NET
 
 By Mark Go  
-Date 20220918
+Date 2023-09-18
 
 ## :information_source: dotnet-install scripts by Microsoft
 
@@ -30,7 +30,7 @@ SignerCertificate                         Status                              St
 
 `dotnet.exe` is included with .NET. 
 
-Use command `dotnet sdk check`
+Use command `dotnet sdk check` but check out what else you can do with it. `dotnet --help`
 
 ```text
 PS> dotnet sdk check
@@ -59,7 +59,7 @@ The latest versions of .NET can be installed from https://aka.ms/dotnet-core-dow
 
 **2. Executing `dotnet-install.ps1` script to fetch and install update**
 
-```text
+```powershell
 PS> .\dotnet-install.ps1
 
 Do you want to run software from this untrusted publisher?
