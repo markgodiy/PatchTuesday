@@ -79,8 +79,10 @@ dotnet-install: Installation finished
 
 **3. Checking installed SDK by running dotnet CLI command: `dotnet sdk check`**
 
+After install, you may see old and new versions of the .NET SDK.  
+The old stuff will be removed after a system reboot.  
+
 ```powershell
-# Note: old version will be replaced after reboot
 
 PS G:\PatchTuesday\DotNet> dotnet sdk check
 .NET SDKs:
