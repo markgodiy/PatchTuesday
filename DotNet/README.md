@@ -11,7 +11,7 @@ Direct link to script. Clicking URL will trigger download of the file but will n
 
 *A `bash` version is also available. More info here: https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-install-script
 
-## Validating script with `Get-AuthenticodeSignature`
+## :white_check_mark:Validating script with `Get-AuthenticodeSignature`
 
 ```powershell
 # Get Authentication signature of dotnet-install.ps1 script:
