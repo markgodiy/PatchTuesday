@@ -3,9 +3,7 @@
 By Mark Go  
 Date 20220918
 
-
-
-## dotnet-install scripts by Microsoft
+## :information_source: dotnet-install scripts by Microsoft
 
 The `dotnet-install` scripts* perform a non-admin installation of the .NET SDK, which includes the .NET CLI and the shared runtime.
 
@@ -25,9 +23,8 @@ SignerCertificate                         Status                              St
 
 ```
 
-## Practical Application
+## Practical Application :computer::computer::computer:
 
------------------
 
 **1. Checking current .NET SDK environment**
 
