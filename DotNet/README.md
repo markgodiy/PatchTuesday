@@ -23,7 +23,7 @@ SignerCertificate                         Status                              St
 
 ```
 
-## Practical Application :computer::computer::computer:
+## :computer: Practical Application 
 
 
 **1. Checking current .NET SDK environment**
