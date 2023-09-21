@@ -1,5 +1,8 @@
 # winget, aka Windows Package Manager
 
+By Mark Go
+Date 2023-09-21
+
 Windows Package Manager is a comprehensive package manager solution that consists of a command line tool and set of services for installing applications on Windows 10 and Windows 11.
 
 More info here: https://learn.microsoft.com/en-us/windows/package-manager/
