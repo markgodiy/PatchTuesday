@@ -84,7 +84,7 @@ The old stuff will be removed after a system reboot.
 
 ```powershell
 
-PS G:\PatchTuesday\DotNet> dotnet sdk check
+PS> dotnet sdk check
 .NET SDKs:
 Version      Status     
 ------------------------
@@ -113,3 +113,27 @@ The latest versions of .NET can be installed from https://aka.ms/dotnet-core-dow
 
 ```
 
+## After reboot
+
+```powershell
+PS> dotnet sdk check
+.NET SDKs:
+Version      Status
+------------------------
+7.0.401      Up to date.
+
+Try out the newest .NET SDK features with .NET 8.0.100-rc.1.23463.5.
+
+.NET Runtimes:
+Name                              Version      Status
+----------------------------------------------------------
+Microsoft.AspNetCore.App          6.0.22       Up to date.
+Microsoft.NETCore.App             6.0.22       Up to date.
+Microsoft.WindowsDesktop.App      6.0.22       Up to date.
+Microsoft.AspNetCore.App          7.0.11       Up to date.
+Microsoft.NETCore.App             7.0.11       Up to date.
+Microsoft.WindowsDesktop.App      7.0.11       Up to date.
+
+
+The latest versions of .NET can be installed from https://aka.ms/dotnet-core-download. For more information about .NET lifecycles, see https://aka.ms/dotnet-core-support.
+```
