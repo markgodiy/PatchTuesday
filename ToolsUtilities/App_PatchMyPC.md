@@ -13,16 +13,16 @@ Go to `Options`, then under the `Logging Options`:
 - Enable `Verbose Logging` 
 - `Set Log location`, otherwise log will be created in  the same folder as the exe file. 
 
-![Alt text](image-2.png)
+![Alt text](images\patchmypcoptions.png)
 
 ## Automated Patching with verbose output for monitoring
 
 Starting:
-![Alt text](image.png)
+![Alt text](images\patchmypcstart.png)
 
 Completed:
-![Alt text](image-1.png)
+![Alt text](images\patchmypccomplete.png)
 
 The output in the log matches the information from the GUI: 
 
-![Alt text](image-3.png)
+![Alt text](images\patchmypclog.png)
