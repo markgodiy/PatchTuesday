@@ -38,3 +38,15 @@ winget upgrade --all
 
 ![Alt text](/ToolsUtilities/images/wingetupgradeall.png)
 
+
+## Using winget to install applications 
+
+Installing Brave browser and VMWare Workstation Player
+
+![image](https://github.com/markgodiy/PatchTuesday/assets/101022486/71bda10f-cdc3-4f6e-b80d-572b1c1e7159)
+
+
+### winget: User Account Control Prompt 
+![image](https://github.com/markgodiy/PatchTuesday/assets/101022486/118f606d-0c2b-4570-a59f-44f468298b21)
+
+
