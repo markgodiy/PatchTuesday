@@ -137,6 +137,3 @@ Microsoft.WindowsDesktop.App      7.0.11       Up to date.
 
 The latest versions of .NET can be installed from https://aka.ms/dotnet-core-download. For more information about .NET lifecycles, see https://aka.ms/dotnet-core-support.
 ```
-
-addingstuff here
-
