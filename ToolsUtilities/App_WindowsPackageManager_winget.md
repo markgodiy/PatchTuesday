@@ -45,6 +45,7 @@ Installing Brave browser and VMWare Workstation Player
 
 ```bash
 winget install brave
+winget install vmware
 ```
 
 ![image](https://github.com/markgodiy/PatchTuesday/assets/101022486/71bda10f-cdc3-4f6e-b80d-572b1c1e7159)
