@@ -3,6 +3,8 @@
 By Mark Go
 Date 2023-09-21
 
+Url: https://patchmypc.com/home-updater
+
 :warning: This application requires administrator privileges to function properly. Exercise caution.
 
 Fantastic tool for automated patching and software updates for Windows users and sysadmins at home, and it's free. 
