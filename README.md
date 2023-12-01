@@ -16,6 +16,11 @@ Tips and Tricks for SysAdmins. Maybe a blog, too.
 |[dotnet-install.ps1](/DotNet/README.md)| Microsoft official script for managing dotnet |
 
 
+## Links
+
+Great site for various ways to install MSU and CAB files  
+https://woshub.com/manually-install-cab-msu-updates-windows/
+
 
 By Mark Go  
 Started 2023-09-18
