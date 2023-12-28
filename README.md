@@ -14,6 +14,7 @@ Tips and Tricks for SysAdmins. Maybe a blog, too.
 |Name|Description|
 |-|-|
 |[dotnet-install.ps1](/DotNet/README.md)| Microsoft official script for managing dotnet |
+|[Install-Winget.ps1](/Winget/Install-Winget.ps1)|Winget Installer script; Credit: asheroto, 1ckov, MisterZeus, ChrisTitusTech, uffemcev|
 
 
 ## Links
