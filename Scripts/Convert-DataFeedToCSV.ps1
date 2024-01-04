@@ -16,9 +16,6 @@ function Convert-DataFeedToCSV {
     .EXAMPLE
         Import-CNDDataFeed -InputFile "C:\Temp\MyWorkbook.xlsx" -Visible
     
-    .LINK
-    
-    
     #>
     [cmdletbinding()]
     param(    
