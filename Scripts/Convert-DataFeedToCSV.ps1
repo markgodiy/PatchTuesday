@@ -1,4 +1,4 @@
-function Convert-DataFeedToCSV {
+function Convert-ExcelDataFeedToCSV {
     <# 
     .DESCRIPTION
         Author. Mark Go.
@@ -102,5 +102,5 @@ function Convert-DataFeedToCSV {
         [System.GC]::WaitForPendingFinalizers()
     
     }
-    } # End function Import-CNDDataFeed
+    } # End function Convert-ExcelDataFeedToCSV
     
