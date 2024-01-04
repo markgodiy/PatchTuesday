@@ -45,8 +45,6 @@ function Convert-DataFeedToCSV {
             $outputFile = $outputFile = (Get-Item $InputFile).DirectoryName +"\"+ (Get-Item $InputFile).BaseName + ".csv"
         }
         Write-Verbose "OutputFile: $outputFile"
-
-
     
         # Create a new Excel Application object
         Write-Verbose "Creating Excel Application object"
@@ -90,7 +88,7 @@ function Convert-DataFeedToCSV {
         catch {
             Write-Error "Error saving file: $_"
         }
-    
+
     } end {
     
         # Close the workbook and quit Excel
