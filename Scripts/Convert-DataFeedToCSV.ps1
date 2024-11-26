@@ -8,10 +8,10 @@ function Convert-ExcelDataFeedToCSV {
         The full path to the Excel workbook to open.
 
     .PARAMETER OutputFile
-        The full path to the CSV file to save.
+        Optional. The full path to the CSV file to save. 
     
     .PARAMETER Visible
-        If specified, the Excel window will be visible. Otherwise, it will be hidden.
+        If specified, the Excel window will be visible. Otherwise, it will be hidden. Be aware that error messages may be hidden if the Excel window is not visible, therefore it is recommended to use the Visible parameter when testing the script.
     
     .EXAMPLE
         Import-CNDDataFeed -InputFile "C:\Temp\MyWorkbook.xlsx" -Visible
@@ -23,7 +23,24 @@ function Convert-ExcelDataFeedToCSV {
         $OutputFile,
         [switch]$Visible
         )
-    
+
+    function Convert-CSVtoJSON {
+        [cmdletbinding()]
+        param(
+            [Parameter(Mandatory=$true,ValueFromPipeline=$true)]
+            [string]$csv
+        )
+        process {
+            $csv = $csv -replace '"',''
+            $csv = $csv -replace '\r\n',''
+            $csv = $csv -replace '\n',''
+            $csv = $csv -replace '\r',''
+            $csv = $csv -replace ',$',''
+            $csv = $csv -replace '^,',''
+            $csv = $csv -replace ',,',',null,'
+        }
+    }
+
     begin {
     
         # Check if the input file exists
@@ -39,6 +56,7 @@ function Convert-ExcelDataFeedToCSV {
     
         # If no output file is specified, use the same path as the input file, but with a CSV extension
         if (-not $OutputFile) {
+
             $outputFile = $outputFile = (Get-Item $InputFile).DirectoryName +"\"+ (Get-Item $InputFile).BaseName + ".csv"
         }
         Write-Verbose "OutputFile: $outputFile"
